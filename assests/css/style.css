@@ -229,6 +229,7 @@ header.active{
 }
 .contact-form > form > .field{
     position: relative;
+    z-index: 3;
 }
 .contact-form > form > .field > label{
     position: absolute;
@@ -238,6 +239,7 @@ header.active{
     display: flex;
     align-items: center;
     transition: var(--trans-1);
+    z-index: -1;
 }
 .contact-form > form > .field > input,
 .contact-form > form > .field > textarea{
@@ -258,6 +260,7 @@ header.active{
     top: -1rem;
     line-height: 1.8rem;
     height: fit-content;
+    z-index: 3;
     background: #5FA6AB;
 }
 .contact-form > form > .field > textarea{
