@@ -34,7 +34,6 @@ $(document).ready(function(){
     });
     $(".display-close-btn").click(function(){
         $(".display").removeClass("active");
-        $(".display").children("img").attr("src", "");
         $(this).removeClass("active");
     });
     // navbar end
