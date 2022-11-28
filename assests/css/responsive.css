@@ -140,3 +140,16 @@
     }
 }
 /* servvice section end */
+
+/* contact section start */
+@media(max-width: 700px){
+    .contact-form{
+        padding-bottom: 10rem;
+    }
+}
+@media(max-width: 310px){
+    .contact-form{
+        padding-bottom: 13rem;
+    }
+}
+/* contact section end */

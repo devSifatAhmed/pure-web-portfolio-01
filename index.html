@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./assests/css/style.css">
     <link rel="stylesheet" href="./assests/css/responsive.css">
     <!-- css styles end -->
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,33 +26,35 @@
     <header class="box-shadow-1">
         <div class="container flex justify-between align-center">
             <!-- logo start -->
-            <div class="logo">
+            <div class="logo" data-aos="fade-down" data-aos-duration="2000">
                 <a href="./" class="clr-1 t-t-cap" title="Portfolio Theme">Lincoln<span class="clr-2">.</span></a>
             </div>
             <!-- logo end -->
 
             <div class="nav-bar flex align-center">
                 <nav class="nav-body">
-                    <button class="flex align-center justify-center nav-btn-close nav-btn clr-1 bg-trans"><i class="fas fa-times"></i></button>
+                    <button class="flex align-center justify-center nav-btn-close nav-btn clr-1 bg-trans"><i
+                            class="fas fa-times"></i></button>
                     <ul class="flex nav-list">
-                        <li>
+                        <li data-aos="fade-up-right" data-aos-duration="2000">
                             <a class="clr-2 t-t-cap hv-c-clr-1 bold" href="#home">home</a>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="2000">
                             <a class="clr-2 t-t-cap hv-c-clr-1 bold" href="#about">about</a>
                         </li>
-                        <li>
+                        <li data-aos="fade-up-left" data-aos-duration="2000">
                             <a class="clr-2 t-t-cap hv-c-clr-1 bold" href="#service">service</a>
                         </li>
-                        <li>
+                        <li data-aos="fade-down" data-aos-duration="2000">
                             <a class="clr-2 t-t-cap hv-c-clr-1 bold" href="#portfolio">portfolio</a>
                         </li>
-                        <li>
+                        <li data-aos="fade-left" data-aos-duration="2000">
                             <a class="clr-2 t-t-cap hv-c-clr-1 bold" href="#contact">contact me</a>
                         </li>
                     </ul>
                 </nav>
-                <button class="flex align-center justify-center nav-btn-open nav-btn clr-1 bg-trans"><i class="fas fa-bars"></i></button>
+                <button class="flex align-center justify-center nav-btn-open nav-btn clr-1 bg-trans"><i
+                        class="fas fa-bars"></i></button>
             </div>
         </div>
     </header>
@@ -64,14 +68,17 @@
         <div class="container">
             <div class="home-wrapper flex justify-between align-center">
                 <div class="home-col flex fld-col">
-                    <span class="fns-20 clr-2 bold">Hello,</span>
-                    <h1 class="clr-1 bold-x">I'm Abraham Lincoln</h1>
-                    <p class="fns-25 clr-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci nam reiciendis corporis eum omnis! Itaque!</p>
-                    <a href="#contact" class="btn-1 fns-25 bold hv-c-clr-1 clr-2">Hire Me</a>
+                    <span class="fns-20 clr-2 bold" data-aos="fade-up-left" data-aos-duration="2000">Hello,</span>
+                    <h1 class="clr-1 bold-x" data-aos="fade-up" data-aos-duration="2000">I'm Abraham Lincoln</h1>
+                    <p class="fns-25 clr-1" data-aos="fade-up-right" data-aos-duration="2000">Lorem ipsum dolor, sit
+                        amet consectetur adipisicing elit. Adipisci nam reiciendis corporis eum omnis! Itaque!</p>
+                    <a href="#contact" data-aos="fade-up-left" data-aos-duration="2000"
+                        class="btn-1 fns-25 bold hv-c-clr-1 clr-2">Hire Me</a>
                 </div>
                 <div class="home-col flex justify-center">
-                    <div class="home-img">
-                        <img src="./assests/images/home-image.png" alt="Hero Image">
+                    <div class="home-img" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
+                        <p>Sifat Ahmed</p>
+                        <img data-aos="flip-right" data-aos-duration="3000" data-aos-delay="2000" src="./assests/images/home-image.png" alt="Hero Image">
                     </div>
                 </div>
             </div>
@@ -86,9 +93,10 @@
         <div class="container">
             <!-- section header start -->
             <div class="section-header flex fld-col align-center">
-                <h2 class="fns-35 clr-1 t-t-cap">about me</h2>
-                <div class="line"></div>
-                <div class="line"></div>
+                <h2 class="fns-35 clr-1 t-t-cap" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">about
+                    me</h2>
+                <div class="line" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200"></div>
+                <div class="line" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="200"></div>
             </div>
             <!-- section header end -->
 
@@ -96,42 +104,53 @@
             <!-- about content start -->
             <div class="about-content flex justify-center align-center">
                 <div class="about-col flex justify-center">
-                    <div class="about-img">
-                        <img src="./assests/images/about-image.png" alt="About Image">
+                    <div class="about-img" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="150">
+                        <img data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="150"
+                            src="./assests/images/about-image.png" alt="About Image">
                     </div>
                 </div>
                 <div class="about-col flex fld-col">
-                    <h3 class="fns-25 bold clr-1">Hello I'm Lincoln Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, id!</h3>
-                    <p class="fns-20 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus optio, iste quis dicta ullam molestias quod illo sit quae atque. Fugit magnam omnis dicta voluptas.</p>
+                    <h3 class="fns-25 bold clr-1" data-aos="flip-left" data-aos-duration="2000" data-aos-offset="150">
+                        Hello I'm Lincoln Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, id!</h3>
+                    <p class="fns-20 clr-2" data-aos="flip-up" data-aos-duration="2000" data-aos-offset="150">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus optio, iste quis dicta ullam
+                        molestias quod illo sit quae atque. Fugit magnam omnis dicta voluptas.</p>
                     <div class="about-details-box flex fld-col">
                         <div class="about-details-field flex fns-20 clr-2">
-                            <span>Name:-</span>
-                            <span>Abraham Lincoln</span>
+                            <span data-aos="fade-right" data-aos-duration="2000" data-aos-offset="150">Name:-</span>
+                            <span data-aos="fade-left" data-aos-duration="2000" data-aos-offset="150">Abraham
+                                Lincoln</span>
                         </div>
                         <div class="about-details-field flex fns-20 clr-2">
-                            <span>Mail:-</span>
-                            <span>demo@mail.com</span>
+                            <span data-aos="fade-left" data-aos-duration="2000" data-aos-offset="150">Mail:-</span>
+                            <span data-aos="fade-right" data-aos-duration="2000"
+                                data-aos-offset="150">demo@mail.com</span>
                         </div>
                         <div class="about-details-field flex fns-20 clr-2">
-                            <span>Name:-</span>
-                            <span>+11244341**</span>
+                            <span data-aos="fade-right" data-aos-duration="2000" data-aos-offset="150">Name:-</span>
+                            <span data-aos="fade-left" data-aos-duration="2000" data-aos-offset="150">+11244341**</span>
                         </div>
                         <div class="about-details-field flex fns-20 clr-2">
-                            <span>Date of Birth:-</span>
-                            <span>12-02-1809</span>
+                            <span data-aos="fade-left" data-aos-duration="2000" data-aos-offset="150">Date of
+                                Birth:-</span>
+                            <span data-aos="fade-right" data-aos-duration="2000" data-aos-offset="150">12-02-1809</span>
                         </div>
                         <div class="about-details-field flex fns-20 clr-2">
-                            <span>Nationality:-</span>
-                            <span>American</span>
+                            <span data-aos="fade-right" data-aos-duration="2000"
+                                data-aos-offset="150">Nationality:-</span>
+                            <span data-aos="fade-left" data-aos-duration="2000" data-aos-offset="150">American</span>
                         </div>
                         <div class="about-details-field flex fns-20 clr-2">
-                            <span>Address:-</span>
-                            <span>New York, USA</span>
+                            <span data-aos="fade-left" data-aos-duration="2000" data-aos-offset="150">Address:-</span>
+                            <span data-aos="fade-right" data-aos-duration="2000" data-aos-offset="150">New York,
+                                USA</span>
                         </div>
                     </div>
                     <div class="about-btn-box flex">
-                    <a href="#contact" class="btn-1 fns-25 bold clr-2">Hire Me</a>
-                    <a href="#contact" class="btn-2 fns-25 bold clr-2">Download CV</a>
+                        <a data-aos="fade-down-right" data-aos-duration="2000" data-aos-offset="150" href="#contact"
+                            class="btn-1 fns-25 bold clr-2">Hire Me</a>
+                        <a data-aos="fade-up-left" data-aos-duration="2000" data-aos-offset="150" href="#contact"
+                            class="btn-2 fns-25 bold clr-2">Download CV</a>
                     </div>
                 </div>
             </div>
@@ -147,38 +166,62 @@
         <div class="container">
             <!-- section header start -->
             <div class="section-header flex fld-col align-center">
-                <h2 class="fns-35 clr-1 t-t-cap">services</h2>
-                <div class="line"></div>
-                <div class="line"></div>
+                <h2 class="fns-35 clr-1 t-t-cap" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">
+                    services</h2>
+                <div class="line" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200"></div>
+                <div class="line" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="200"></div>
             </div>
             <!-- section header end -->
 
             <!-- service card-box start -->
             <div class="service-card-container col-3-container flex wrap justify-center">
-                <div class="service-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
-                    <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
-                    <h3 class="fns-30 clr-1">Web Design</h3>
-                    <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam quis asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                <div class="service-card col-3"
+                    data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="200">
+                    <div class="service-card-inner box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                        <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
+                        <h3 class="fns-30 clr-1">Web Design</h3>
+                        <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam
+                            quis asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                    </div>
                 </div>
-                <div class="service-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
-                    <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
-                    <h3 class="fns-30 clr-1">Web Design</h3>
-                    <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam quis asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                <div class="service-card col-3"
+                    data-aos="zoom-out" data-aos-duration="2000" data-aos-offset="200">
+                    <div class="service-card-inner box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                        <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
+                        <h3 class="fns-30 clr-1">Web Design</h3>
+                        <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam
+                            quis asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                    </div>
                 </div>
-                <div class="service-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
-                    <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
-                    <h3 class="fns-30 clr-1">Web Design</h3>
-                    <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam quis asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                <div class="service-card col-3"
+                    data-aos="zoom-in-right" data-aos-duration="2000" data-aos-offset="200">
+                    <div class="service-card-inner box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                        <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
+                        <h3 class="fns-30 clr-1">Web Design</h3>
+                        <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam
+                            quis
+                            asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                    </div>
                 </div>
-                <div class="service-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
-                    <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
-                    <h3 class="fns-30 clr-1">Web Design</h3>
-                    <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam quis asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                <div class="service-card col-3"
+                    data-aos="zoom-in-left" data-aos-duration="2000" data-aos-offset="200">
+                    <div class="service-card-inner box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                        <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
+                        <h3 class="fns-30 clr-1">Web Design</h3>
+                        <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam
+                            quis
+                            asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                    </div>
                 </div>
-                <div class="service-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
-                    <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
-                    <h3 class="fns-30 clr-1">Web Design</h3>
-                    <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam quis asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                <div class="service-card col-3"
+                    data-aos="zoom-out-left" data-aos-duration="2000" data-aos-offset="200">
+                    <div class="service-card-inner box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                        <i class="fas fa-bullhorn fns-35 clr-2 flex align-center justify-center"></i>
+                        <h3 class="fns-30 clr-1">Web Design</h3>
+                        <p class="fns-18 clr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam
+                            quis
+                            asperiores dolore impedit provident unde harum, minus aliquam nesciunt.</p>
+                    </div>
                 </div>
             </div>
             <!-- service card-box end -->
@@ -194,36 +237,42 @@
         <div class="container">
             <!-- section header start -->
             <div class="section-header flex fld-col align-center">
-                <h2 class="fns-35 clr-1 t-t-cap">portfolio</h2>
-                <div class="line"></div>
-                <div class="line"></div>
+                <h2 class="fns-35 clr-1 t-t-cap" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">
+                    portfolio</h2>
+                <div class="line" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200"></div>
+                <div class="line" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="200"></div>
             </div>
             <!-- section header end -->
 
 
             <!-- portfolio card-box start -->
             <div class="portfolio-card-container col-3-container flex wrap justify-center">
-                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center"
+                    data-aos="zoom-in-left" data-aos-duration="2000" data-aos-offset="200">
                     <div class="img">
                         <img src="/assests/images/portfolio-image-1.png" alt="Projects">
                     </div>
                 </div>
-                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center"
+                    data-aos="zoom-out" data-aos-duration="2000" data-aos-offset="200">
                     <div class="img">
                         <img src="/assests/images/portfolio-image-2.png" alt="Projects">
                     </div>
                 </div>
-                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center"
+                    data-aos="zoom-in-right" data-aos-duration="2000" data-aos-offset="200">
                     <div class="img">
                         <img src="/assests/images/portfolio-image-3.png" alt="Projects">
                     </div>
                 </div>
-                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center"
+                    data-aos="fade-right" data-aos-duration="2000" data-aos-offset="200">
                     <div class="img">
                         <img src="/assests/images/portfolio-image-4.png" alt="Projects">
                     </div>
                 </div>
-                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center">
+                <div class="portfolio-card col-3 box-shadow-3 hv-box-shadow-2 flex fld-col align-center"
+                    data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200">
                     <div class="img">
                         <img src="/assests/images/portfolio-image-5.png" alt="Projects">
                     </div>
@@ -251,9 +300,10 @@
         <div class="container">
             <!-- section header start -->
             <div class="section-header flex fld-col align-center">
-                <h2 class="fns-35 clr-1 t-t-cap">Contact</h2>
-                <div class="line"></div>
-                <div class="line"></div>
+                <h2 class="fns-35 clr-1 t-t-cap" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">
+                    contact</h2>
+                <div class="line" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200"></div>
+                <div class="line" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="200"></div>
             </div>
             <!-- section header end -->
 
@@ -261,23 +311,23 @@
             <!-- contact form start -->
             <div class="contact-form">
                 <form action="/">
-                    <div class="field">
+                    <div class="field" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="150">
                         <input type="text" required>
                         <label class="fns-18 clr-1">Name</label>
                     </div>
-                    <div class="field">
+                    <div class="field" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="150">
                         <input type="text" required>
                         <label class="fns-18 clr-1">Email</label>
                     </div>
-                    <div class="field">
+                    <div class="field" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="150">
                         <input type="text" required>
                         <label class="fns-18 clr-1">Subject</label>
                     </div>
-                    <div class="field">
+                    <div class="field" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="150">
                         <textarea required></textarea>
                         <label class="fns-18 clr-1">Messages</label>
                     </div>
-                    <button type="submit" class="btn-1 fns-25 bold clr-2">Hire Me</button>
+                    <button type="submit" class="btn-1 fns-25 bold clr-2" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="120">Hire Me</button>
                 </form>
             </div>
             <!-- contact form end -->
@@ -295,6 +345,11 @@
     <script src="./assests/js/scrollwatch.js"></script>
     <!-- custom jquery -->
     <script src="./assests/js/app.js"></script>
+    <!-- aos libray -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

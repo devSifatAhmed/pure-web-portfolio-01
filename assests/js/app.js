@@ -25,7 +25,10 @@ $(document).ready(function(){
     $("section").click(function(){
         $(".nav-btn-close").parent().removeClass("active");
     });
+    // navbar end
 
+
+    // portfolio showcase start
     $(".portfolio-card").click(function(){
         var src = $(this).children(".img").children("img").attr("src");
         $(".display").children("img").attr("src", src);
@@ -36,5 +39,5 @@ $(document).ready(function(){
         $(".display").removeClass("active");
         $(this).removeClass("active");
     });
-    // navbar end
+    // portfolio showcase end
 });

@@ -32,6 +32,8 @@ html {
 
 section {
     padding: 12rem 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 ::selection {
